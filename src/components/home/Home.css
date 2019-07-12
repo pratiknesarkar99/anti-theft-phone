@@ -1,0 +1,60 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  width: 80%;
+  padding: 0px;
+  margin: auto;
+  background-color: rgb(236, 236, 236);
+}
+
+header > h1 > a > span {
+  color: red;
+}
+
+header > h1 > a {
+  text-decoration: none;
+  color: black;
+  margin: 15px 15px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header > ul {
+  float: right;
+}
+
+header .current a {
+  color: red;
+  font-weight: bold;
+}
+
+header > ul > li {
+  float: left;
+  list-style: none;
+  padding: 0 20px 0 20px;
+}
+
+header > ul > li > a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+header > ul > li > a:hover {
+  font-size: 20px;
+  color: red;
+}
+
+.content {
+  background-color: rgb(218, 218, 218);
+  height: 2000px;
+}
+
+footer {
+  background-color: black;
+  color: red;
+  float: right;
+  font-size: 12px;
+}
